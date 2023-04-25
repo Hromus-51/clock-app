@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/clock-app/static/css/main.cc5a83f6.css",
-    "main.js": "/clock-app/static/js/main.48ca6322.js",
+    "main.js": "/clock-app/static/js/main.020be57d.js",
     "static/media/bg-image-daytime.jpg": "/clock-app/static/media/bg-image-daytime.13c049fcfdc590ddcef0.jpg",
     "static/media/bg-image-nighttime.jpg": "/clock-app/static/media/bg-image-nighttime.438769a9d4d4a50b636b.jpg",
     "static/media/icon-sun.svg": "/clock-app/static/media/icon-sun.cb7a2aac3be7bf88b4cf17bd97d62fd2.svg",
@@ -10,10 +10,10 @@
     "static/media/icon-moon.svg": "/clock-app/static/media/icon-moon.83b9f0dbe53bfaab2e1c6dc344545e9c.svg",
     "static/media/icon-arrow-down.svg": "/clock-app/static/media/icon-arrow-down.4d330a30a2190ce71512b306095fbf41.svg",
     "main.cc5a83f6.css.map": "/clock-app/static/css/main.cc5a83f6.css.map",
-    "main.48ca6322.js.map": "/clock-app/static/js/main.48ca6322.js.map"
+    "main.020be57d.js.map": "/clock-app/static/js/main.020be57d.js.map"
   },
   "entrypoints": [
     "static/css/main.cc5a83f6.css",
-    "static/js/main.48ca6322.js"
+    "static/js/main.020be57d.js"
   ]
 }
