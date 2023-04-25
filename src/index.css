@@ -1,0 +1,144 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+:root {
+    /* Typography */
+    --family-ss: 'Inter', sans-serif;
+
+    /* Font size - heading */
+    --fs-h1: 200px;
+    --lh-h1: 200px;
+    --ls-h1: -5px;
+
+    --fs-h2: 56px;
+    --lh-h2: 68px;
+
+    --fs-h3: 24px;
+    --lh-h3: 28px;
+    --ls-h3: 4.8px;
+
+    --fs-h4: 20px;
+    --lh-h4: 28px;
+    --ls-h4: 4px;
+
+    --fs-h5: 18px;
+    --lh-h5: 28px;
+    --ls-h5: 3.6px;
+
+    --fs-h6: 15px;
+    --lh-h6: 28px;
+    --ls-h6: 3px;
+
+    /* Font size - heading-tablet */
+    --fs-h1-t: 175px;
+    --lh-h1-t: 175px;
+    --ls-h1-t: -4.38px;
+
+    --fs-h2-t: 40px;
+    --lh-h2-t: 48px;
+
+    --fs-h5-t: 12px;
+    --lh-h5-t: 22px;
+
+    --fs-h6-t: 13px;
+    --lh-h6-t: 28px;
+    --ls-h6-t: 2.6px;
+
+    /* Font size - heading-mobile */
+    --fs-h1-m: 100px;
+    --lh-h1-m: 100px;
+    --ls-h1-m: -2.5px;
+
+    --fs-h2-m: 20px;
+    --lh-h2-m: 24px;
+
+    --fs-h4-m: 15px;
+    --lh-h4-m: 25px;
+    --ls-h4-m: 3px;
+
+    --fs-h5-m: 12px;
+    --lh-h5-m: 22px;
+
+    --fs-h6-m: 10px;
+    --lh-h6-m: 28px;
+    --ls-h6-m: 2px;
+
+    /* Font size - body */
+    --fs-bl: 40px;
+    --lh-bl: 28px;
+
+    --fs-bm: 18px;
+    --lh-bm: 28px;
+
+    /* Font size - body-tablet */
+    --fs-bl-t: 32px;
+    --lh-bl-t: 28px;
+
+    /* Font size - body-mobile */
+    --fs-bl-m: 15px;
+    --lh-bl-m: 28px;
+
+    /* Font size - button */
+    --fsb: 16px;
+    --lhb: 28px;
+    --lsb: 5px;
+
+    /* Font size - mobile */
+    --fsb-m: 12px;
+    --lhb-m: 14px;
+    --lsb-m: 3.8px;
+
+    /* Font weight */
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-bold: 700;
+
+    /* Colors */
+    --dark: #000000;
+    --medium: #303030;
+    --light: #FFFFFF;
+    --button: rgba(0, 0, 0, 0.5);
+
+    /* Filter */
+    --bgf: blur(20.3871px);
+}
+
+/* Dark-theme */
+body[data-theme='dark'] {
+    --color-more: #FFFFFF;
+    --color-line: rgba(255, 255, 255, 0.25);
+    --bg: rgba(0, 0, 0, 0.75);
+
+    --bg-img-d: url('./assets/desktop/bg-image-nighttime.jpg');
+    --bg-img-t: url('./assets/tablet/bg-image-nighttime.jpg');
+    --bg-img-m: url('./assets/mobile/bg-image-nighttime.jpg');
+}
+
+/* Light-theme */
+body[data-theme='light'] {
+    --color-more: #303030;
+    --color-line: rgba(48, 48, 48, 0.25);
+    --bg: rgba(255, 255, 255, 0.75);
+
+    --bg-img-d: url('./assets/desktop/bg-image-daytime.jpg');
+    --bg-img-t: url('./assets/tablet/bg-image-daytime.jpg');
+    --bg-img-m: url('./assets/mobile/bg-image-daytime.jpg');
+}
+
+body {
+    height: 100vh;
+
+    font-family: var(--family-ss);
+    font-weight: var(--fw-regular);
+    color: var(--light);
+
+    background: var(--medium) var(--bg-img-d) 50% 50% / cover no-repeat;
+
+    @media(max-width:768px) {
+        background: var(--bg-img-t) 50% 50% / cover no-repeat;
+    }
+
+    @media(max-width:425px) {
+        background: var(--bg-img-m) 50% 50% / cover no-repeat;
+    }
+}
