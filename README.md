@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- [Live Site](https://hromus-51.github.io/todo-app/)
+- [Live Site](https://hromus-51.github.io/clock-app/)
 
 ### Built with
 
